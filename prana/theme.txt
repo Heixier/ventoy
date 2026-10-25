@@ -1,0 +1,126 @@
+# P.R.A.N.A. tech theme (1920x1080)
+# Font placeholders are replaced by scripts/install-fonts.sh using the exact PF2 NAME field.
+# Heixier: NOPE, WTF is this theme I'm just going to configure it myself, the use of python reeks of AI
+
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "center"
+desktop-image-v-align: "center"
+desktop-color: "#050913"
+
+terminal-font: "consolas-14.pf2"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+message-font: "misans-regular-14.pf2"
+message-color: "#F3F7FF"
+
++ boot_menu {
+  left = 5%
+  top = 24%
+  width = 40%
+  height = 54%
+  item_font = "misans-medium-18.pf2"
+  selected_item_font = "misans-medium-18.pf2"
+  item_color = "#F4F8FF"
+  selected_item_color = "#FFFFFF"
+  icon_width = 30
+  icon_height = 30
+  item_icon_space = 18
+  item_height = 34
+  item_padding = 6
+  item_spacing = 10
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+  left = 5%
+  top = 80%
+  width = 24%
+  height = 20
+  text = "USER : SENSEI"
+  font = "consolas-14.pf2"
+  color = "#7F9ABF"
+  align = "left"
+}
+
++ label {
+  left = 5%
+  top = 82%
+  width = 24%
+  height = 20
+  text = "ARCHIVE : ONLINE"
+  font = "consolas-14.pf2"
+  color = "#7F9ABF"
+  align = "left"
+}
+
++ label {
+  left = 5%
+  top = 84%
+  width = 24%
+  height = 20
+  text = "LINK STATUS : STABLE"
+  font = "consolas-14.pf2"
+  color = "#7F9ABF"
+  align = "left"
+}
+
++ label {
+  left = 5%
+  top = 88%
+  width = 24%
+  height = 20
+  text = "Stay with you,"
+  font = "misans-regular-14.pf2"
+  color = "#D7E5F8"
+  align = "left"
+}
+
++ label {
+  left = 5%
+  top = 90%
+  width = 24%
+  height = 20
+  text = "wherever you go."
+  font = "misans-regular-14.pf2"
+  color = "#D7E5F8"
+  align = "left"
+}
+
++ label {
+  left = 5%
+  top = 79%
+  width = 30%
+  height = 24
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  font = "consolas-14.pf2"
+  color = "#B9C9E8"
+  align = "left"
+}
+
++ label {
+  left = 5%
+  top = 96%
+  width = 58%
+  height = 28
+  text = "↑↓ Select   Enter Boot   e Edit   c Console"
+  font = "misans-regular-14.pf2"
+  color = "#B9C9E8"
+  align = "left"
+}
+
++ label {
+  left = 69%
+  top = 96%
+  width = 26%
+  height = 28
+  text = "P.R.A.N.A. // BOOT SELECT"
+  font = "consolas-14.pf2"
+  color = "#B9C9E8"
+  align = "right"
+}
